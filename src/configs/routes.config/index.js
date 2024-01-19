@@ -12,20 +12,20 @@ export const protectedRoutes = [
     },
     {
         key: 'categorias.ebooks',
-        path: '/ebooks',
-        component: React.lazy(() => import('views/categorias/Ebooks')),
+        path: '/ebooks/:categoryId',
+        component: React.lazy(() => import('views/categories/Products')),
         authority: [],
     },
     {
         key: 'categorias.cursos',
-        path: '/cursos',
-        component: React.lazy(() => import('views/categorias/Cursos')),
+        path: '/cursos/:categoryId',
+        component: React.lazy(() => import('views/categories/Products')),
         authority: [],
     },
     {
         key: 'categorias.produtos',
-        path: '/produtos',
-        component: React.lazy(() => import('views/categorias/Produtos')),
+        path: '/produtos/:categoryId',
+        component: React.lazy(() => import('views/categories/Products')),
         authority: [],
     },
 ]

@@ -26,7 +26,7 @@ const navigationConfig = [
         subMenu: [
             {
                 key: 'categorias.ebooks',
-                path: '/ebooks?id=1',
+                path: '/ebooks/2',
                 title: 'E-books',
                 translateKey: 'nav.categorias.ebooks',
                 icon: '',
@@ -36,7 +36,7 @@ const navigationConfig = [
             },
             {
                 key: 'categorias.cursos',
-                path: '/cursos?id=2',
+                path: '/cursos/3',
                 title: 'Cursos',
                 translateKey: 'nav.categorias.cursos',
                 icon: '',
@@ -46,8 +46,8 @@ const navigationConfig = [
             },
             {
                 key: 'categorias.produtos',
-                path: '/produtos?id=3',
-                title: 'Produtos',
+                path: '/produtos/1',
+                title: 'Produtos Físicos',
                 translateKey: 'nav.categorias.produtos',
                 icon: '',
                 type: NAV_ITEM_TYPE_ITEM,

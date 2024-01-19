@@ -16,7 +16,7 @@ export const productsData = [
         name: 'Curso 1',
         description: 'Descrição produto',
         price: 150.00,
-        categoryId: 1,
+        categoryId: 3,
     },
     {
         id: 2,
@@ -24,7 +24,7 @@ export const productsData = [
         name: 'Produto 1',
         description: 'Descrição produto',
         price: 100.00,
-        categoryId: 2,
+        categoryId: 1,
     },
     {
         id: 3,
@@ -32,7 +32,7 @@ export const productsData = [
         name: 'E-book 1',
         description: 'Descrição produto',
         price: 100.00,
-        categoryId: 3,
+        categoryId: 2,
     },
     {
         id: 4,
@@ -40,7 +40,7 @@ export const productsData = [
         name: 'Produto 2',
         description: 'Descrição produto',
         price: 50.00,
-        categoryId: 2,
+        categoryId: 1,
     },
     {
         id: 5,
@@ -48,7 +48,7 @@ export const productsData = [
         name: 'E-book 2',
         description: 'Descrição produto',
         price: 100.00,
-        categoryId: 3,
+        categoryId: 2,
     },
     {
         id: 6,
@@ -56,7 +56,7 @@ export const productsData = [
         name: 'Curso 2',
         description: 'Descrição produto',
         price: 150.00,
-        categoryId: 1,
+        categoryId: 3,
     },
     {
         id: 7,
@@ -64,7 +64,7 @@ export const productsData = [
         name: 'Produto 3',
         description: 'Descrição produto',
         price: 100.00,
-        categoryId: 3,
+        categoryId: 2,
     },
     {
         id: 8,
@@ -72,7 +72,7 @@ export const productsData = [
         name: 'Curso 3',
         description: 'Descrição produto',
         price: 150.00,
-        categoryId: 1,
+        categoryId: 3,
     },
     {
         id: 9,
@@ -80,6 +80,6 @@ export const productsData = [
         name: 'Produto 3',
         description: 'Descrição produto',
         price: 10.00,
-        categoryId: 2,
+        categoryId: 1,
     },
 ]
