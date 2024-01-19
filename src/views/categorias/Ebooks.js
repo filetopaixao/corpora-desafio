@@ -1,8 +1,8 @@
 import React from 'react'
 
 /** Example purpose only */
-const CollapseMenuItemView1 = () => {
+const Ebooks = () => {
     return <div>CollapseMenuItemView1</div>
 }
 
-export default CollapseMenuItemView1
+export default Ebooks

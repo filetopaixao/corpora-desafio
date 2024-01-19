@@ -10,47 +10,22 @@ export const protectedRoutes = [
         component: React.lazy(() => import('views/Home')),
         authority: [],
     },
-    /** Example purpose only, please remove */
     {
-        key: 'singleMenuItem',
-        path: '/single-menu-view',
-        component: React.lazy(() => import('views/demo/SingleMenuView')),
+        key: 'categorias.ebooks',
+        path: '/ebooks',
+        component: React.lazy(() => import('views/categorias/Ebooks')),
         authority: [],
     },
     {
-        key: 'collapseMenu.item1',
-        path: '/collapse-menu-item-view-1',
-        component: React.lazy(() => import('views/demo/CollapseMenuItemView1')),
+        key: 'categorias.cursos',
+        path: '/cursos',
+        component: React.lazy(() => import('views/categorias/Cursos')),
         authority: [],
     },
     {
-        key: 'collapseMenu.item2',
-        path: '/collapse-menu-item-view-2',
-        component: React.lazy(() => import('views/demo/CollapseMenuItemView2')),
-        authority: [],
-    },
-    {
-        key: 'groupMenu.single',
-        path: '/group-single-menu-item-view',
-        component: React.lazy(() =>
-            import('views/demo/GroupSingleMenuItemView')
-        ),
-        authority: [],
-    },
-    {
-        key: 'groupMenu.collapse.item1',
-        path: '/group-collapse-menu-item-view-1',
-        component: React.lazy(() =>
-            import('views/demo/GroupCollapseMenuItemView1')
-        ),
-        authority: [],
-    },
-    {
-        key: 'groupMenu.collapse.item2',
-        path: '/group-collapse-menu-item-view-2',
-        component: React.lazy(() =>
-            import('views/demo/GroupCollapseMenuItemView2')
-        ),
+        key: 'categorias.produtos',
+        path: '/produtos',
+        component: React.lazy(() => import('views/categorias/Produtos')),
         authority: [],
     },
 ]
