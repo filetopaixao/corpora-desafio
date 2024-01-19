@@ -1,11 +1,19 @@
 {
     "nav": {
-        "home": "Loja",
+        "home": "Store",
         "collapseMenu": {
-            "collapseMenu": "Categorias",
+            "collapseMenu": "Categories",
             "item1": "E-books",
-            "item2": "Cursos",
-            "item3": "Produtos Físicos"
+            "item2": "Courses",
+            "item3": "Physical Products"
         }
+    },
+    "home": {
+        "featuredProducts": "Featured Products",
+        "emptyProducts": "No products registered."
+    },
+    "products": {
+        "buy": "Buy",
+        "details": "Details"
     }
 }

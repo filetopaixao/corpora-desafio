@@ -18,7 +18,7 @@ const navigationConfig = [
     {
         key: 'categorias',
         path: '',
-        title: 'Categorias',
+        title: 'Categories',
         translateKey: 'nav.categorias.collapseMenu',
         icon: 'collapseMenu',
         type: NAV_ITEM_TYPE_COLLAPSE,
@@ -37,7 +37,7 @@ const navigationConfig = [
             {
                 key: 'categorias.cursos',
                 path: '/cursos/3',
-                title: 'Cursos',
+                title: 'Courses',
                 translateKey: 'nav.categorias.cursos',
                 icon: '',
                 type: NAV_ITEM_TYPE_ITEM,
@@ -47,7 +47,7 @@ const navigationConfig = [
             {
                 key: 'categorias.produtos',
                 path: '/produtos/1',
-                title: 'Produtos Físicos',
+                title: 'Physical Products',
                 translateKey: 'nav.categorias.produtos',
                 icon: '',
                 type: NAV_ITEM_TYPE_ITEM,

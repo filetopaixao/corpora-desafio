@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from "../Buttons"
+import i18n from "i18next";
 
 const Product = (props) => {
     const { productName, productPrice, productImage } = props
@@ -10,8 +11,8 @@ const Product = (props) => {
             </div>
             <p>{productName}</p>
             <p className="font-bold">R$ {productPrice}</p>
-            <Button block className="mt-5 mb-2">Ver Detalhes</Button>
-            <Button block variant="solid">Comprar</Button>
+            <Button block className="mt-5 mb-2">{i18n.t('products.details')}</Button>
+            <Button block variant="solid">{i18n.t('products.buy')}</Button>
         </div>
     )
 }

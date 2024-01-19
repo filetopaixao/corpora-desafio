@@ -2,6 +2,7 @@ import React from 'react'
 import { useSelector } from "react-redux"
 import Slider from '../components/ui/Slider'
 import Product from '../components/ui/Product'
+import i18n from 'i18next'
 
 const Home = () => {
     const products = useSelector((state) => state.products.data)
@@ -9,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <Slider />
-            <h2 className="text-center my-10">Produtos Populares</h2>
+            <h2 className="text-center my-10">{i18n.t('home.featuredProducts')}</h2>
             {products ? (
                 <div className="grid grid-cols-1 sm:grid-cols-3">
                     {products.map(product => (
@@ -23,7 +24,7 @@ const Home = () => {
                 </div>
             ) : (
                 <div>
-                    <p>Nenhum produto cadastrado.</p>
+                    <p>{i18n.t('home.emptyProducts')}</p>
                 </div>
             )}
         </div>

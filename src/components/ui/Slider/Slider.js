@@ -8,7 +8,8 @@ import produto1 from '../../../assets/images/produto-1.jpg'
 
 import 'react-awesome-slider/dist/styles.css'
 import style from '../../../assets/styles/template/_react-awesome-slider.css'
-import Button from "../Buttons"
+import Button from '../Buttons'
+import i18n from 'i18next'
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
@@ -26,7 +27,7 @@ const Slider = () => {
                     <h1 className="mb-2">Ebook 3</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <div className="flex items-center mt-7">
-                        <Button variant="solid">Comprar</Button>
+                        <Button variant="solid">{i18n.t('products.buy')}</Button>
                         <p className="ml-4 font-bold">R$ 100,00</p>
                     </div>
                 </div>
@@ -36,10 +37,10 @@ const Slider = () => {
             </div>
             <div className="bg-white w-full h-full flex justify-around items-center">
                 <div>
-                    <h1 className="mb-2">Curso 1</h1>
+                    <h1 className="mb-2">Course 1</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <div className="flex items-center mt-7">
-                        <Button variant="solid">Comprar</Button>
+                        <Button variant="solid">{i18n.t('products.buy')}</Button>
                         <p className="ml-4 font-bold">R$ 100,00</p>
                     </div>
                 </div>
@@ -49,10 +50,10 @@ const Slider = () => {
             </div>
             <div className="bg-white w-full h-full flex justify-around items-center">
                 <div>
-                    <h1 className="mb-2">Produto 1</h1>
+                    <h1 className="mb-2">Product 1</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <div className="flex items-center mt-7">
-                        <Button variant="solid">Comprar</Button>
+                        <Button variant="solid">{i18n.t('products.buy')}</Button>
                         <p className="ml-4 font-bold">R$ 100,00</p>
                     </div>
                 </div>
