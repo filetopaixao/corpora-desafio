@@ -17,7 +17,7 @@ const Slider = () => {
         <AutoplaySlider
             play={true}
             cancelOnInteraction={false} // should stop playing on user interaction
-            interval={2000}
+            interval={3000}
             cssModule={style}
             bullets={false}
         >

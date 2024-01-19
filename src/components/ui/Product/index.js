@@ -1,3 +1,3 @@
-import Slider from './Slider'
+import Product from './Product'
 
-export default Slider
+export default Product

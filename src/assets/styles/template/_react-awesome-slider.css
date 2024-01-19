@@ -13,3 +13,9 @@
     --loader-bar-color: #851515;
     --loader-bar-height: 6px;
 }
+
+@media (max-width: 767px) {
+    .awssld {
+        --slider-height-percentage: 50%;
+    }
+}
