@@ -2,6 +2,7 @@ import { combineReducers } from 'redux'
 import theme from './theme/themeSlice'
 import auth from './auth'
 import base from './base'
+import products from './products/productsSlice'
 import locale from './locale/localeSlice'
 
 const rootReducer = (asyncReducers) => (state, action) => {
@@ -10,6 +11,7 @@ const rootReducer = (asyncReducers) => (state, action) => {
         auth,
         base,
         locale,
+        products,
         ...asyncReducers,
     })
     return combinedReducer(state, action)

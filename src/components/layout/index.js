@@ -11,6 +11,7 @@ import {
 } from 'constants/theme.constant'
 import useAuth from 'utils/hooks/useAuth'
 import useDirection from 'utils/hooks/useDirection'
+import useProducts from 'utils/hooks/useProducts'
 import useLocale from 'utils/hooks/useLocale'
 
 const layouts = {
@@ -28,6 +29,8 @@ const Layout = () => {
     const { authenticated } = useAuth()
 
     useDirection()
+
+    useProducts()
 
     //useLocale()
 
