@@ -4,13 +4,12 @@ import { Provider } from 'react-redux';
 import { I18nextProvider } from 'react-i18next'
 import { MemoryRouter, Route, Routes } from 'react-router-dom'
 import Products from '../../../views/categories/Products'
-import translation from '../../../locales/lang/en.json'
 import i18n from '../../../locales'
 import store from '../../../store'
 import { categoriesData } from '../../../mock/data/categoriesData'
 import { setProducts } from '../../../store/products/productsSlice'
 import { productsData } from '../../../mock/data/productsData'
-import {setCategories} from "../../../store/categories/categoriesSlice";
+import {setCategories} from '../../../store/categories/categoriesSlice'
 
 describe('Products Categories View', () => {
     beforeEach(() => {
