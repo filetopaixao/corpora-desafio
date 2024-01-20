@@ -15,8 +15,8 @@ export default function mockServer({ environment = 'test' }) {
         seeds(server) {
             server.db.loadData({
                 signInUserData,
+                categoriesData,
                 productsData,
-                categoriesData
             })
         },
         routes() {

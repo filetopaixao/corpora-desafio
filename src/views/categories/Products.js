@@ -10,8 +10,8 @@ const Products = () => {
     const categories = useSelector((state) => state.categories.data)
 
     if (categoryId && products) {
-        const productsFiltered = products.filter(product => product.categoryId === parseInt(categoryId))
-        const categoriesFiltered = categories.filter(category => category.id === categoryId)
+        const productsFiltered = products.filter(product => parseInt(product.categoryId) === parseInt(categoryId))
+        const categoriesFiltered = categories.filter(category => parseInt(category.id) === parseInt(categoryId))
 
         return (
             <>
