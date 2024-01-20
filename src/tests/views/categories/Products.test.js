@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
-import { Provider } from 'react-redux';
+import { Provider } from 'react-redux'
 import { MemoryRouter, Route, Routes } from 'react-router-dom'
 import Products from '../../../views/categories/Products'
 import store from '../../../store'

@@ -1,9 +1,9 @@
 import React from 'react'
+import i18n from 'i18next'
 import { useSelector } from "react-redux"
-import { useParams } from 'react-router-dom';
-import Product from "../../components/ui/Product";
+import { useParams } from 'react-router-dom'
+import Product from '../../components/ui/Product'
 
-/** Example purpose only */
 const Products = () => {
     const { categoryId } = useParams()
     const products = useSelector((state) => state.products.data)
@@ -30,7 +30,7 @@ const Products = () => {
         )
     }
 
-    return <div>Não há produtos cadastrados nesta categoria.</div>
+    return <div>{i18n.t('products.emptyProducts')}</div>
 }
 
 export default Products

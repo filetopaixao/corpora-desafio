@@ -1,6 +1,8 @@
 import React from 'react'
 import AwesomeSlider from 'react-awesome-slider'
 import withAutoplay from 'react-awesome-slider/dist/autoplay'
+import Button from '../Buttons'
+import i18n from 'i18next'
 
 import ebook3 from '../../../assets/images/ebook-3.png'
 import curso1 from '../../../assets/images/curso-1.png'
@@ -8,8 +10,6 @@ import produto1 from '../../../assets/images/produto-1.jpg'
 
 import 'react-awesome-slider/dist/styles.css'
 import style from '../../../assets/styles/template/_react-awesome-slider.css'
-import Button from '../Buttons'
-import i18n from 'i18next'
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 

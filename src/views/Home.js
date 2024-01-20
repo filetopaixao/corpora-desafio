@@ -1,8 +1,8 @@
 import React from 'react'
+import i18n from 'i18next'
 import { useSelector } from "react-redux"
 import Slider from '../components/ui/Slider'
 import Product from '../components/ui/Product'
-import i18n from 'i18next'
 
 const Home = () => {
     const products = useSelector((state) => state.products.data)

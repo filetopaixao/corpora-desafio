@@ -14,6 +14,7 @@
     },
     "products": {
         "buy": "Buy",
-        "details": "Details"
+        "details": "Details",
+        "emptyProducts": "There are no products registered in this category."
     }
 }

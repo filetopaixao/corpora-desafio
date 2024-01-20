@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
-import { Provider } from 'react-redux';
+import { Provider } from 'react-redux'
 import { I18nextProvider } from 'react-i18next'
 import Home from '../../views/Home'
 import translation from '../../locales/lang/en.json'
