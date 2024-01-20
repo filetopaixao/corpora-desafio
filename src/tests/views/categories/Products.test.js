@@ -1,10 +1,8 @@
 import { render } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 import { Provider } from 'react-redux';
-import { I18nextProvider } from 'react-i18next'
 import { MemoryRouter, Route, Routes } from 'react-router-dom'
 import Products from '../../../views/categories/Products'
-import i18n from '../../../locales'
 import store from '../../../store'
 import { categoriesData } from '../../../mock/data/categoriesData'
 import { setProducts } from '../../../store/products/productsSlice'
@@ -28,13 +26,11 @@ describe('Products Categories View', () => {
     it('renders successfully', () => {
         const { getByText } = render(
             <Provider store={store}>
-                <I18nextProvider i18n={i18n}>
-                    <MemoryRouter initialEntries={[`/produtos/1`]}>
-                        <Routes>
-                            <Route path="/produtos/:categoryId" element={<Products />} />
-                        </Routes>
-                    </MemoryRouter>
-                </I18nextProvider>
+                <MemoryRouter initialEntries={[`/produtos/1`]}>
+                    <Routes>
+                        <Route path="/produtos/:categoryId" element={<Products />} />
+                    </Routes>
+                </MemoryRouter>
             </Provider>
         );
 
